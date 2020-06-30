@@ -48,4 +48,4 @@ total_mean <- total %>% group_by(activitylabel, subject) %>% summarize_each(funs
 
 
 
-write.table(total_mean, file = "C:/Users/Asus/Documents/R/UCI HAR Dataset/TidyData.txt", row.names = FALSE, col.names = TRUE)
+write.table(total_mean, file = "C:/Users/Asus/Documents/R/UCI HAR Dataset/TidyData.txt", row.names = FALSE)
